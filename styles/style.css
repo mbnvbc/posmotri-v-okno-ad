@@ -92,3 +92,39 @@ ol {
   flex-direction: column;
   gap: 30px;
 }
+
+.result__video-container {
+  inline-size: 711px;
+  block-size: 386px;
+  margin-block-end: 16px;
+}
+
+.result__video {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content__video-card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content__video-card-thumbnail {
+  inline-size: 194px;
+  block-size: 103px;
+  object-fit: cover;
+  object-position: center;
+  flex-shrink: 0;
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
+  padding-inline-end: 10px;
+}
