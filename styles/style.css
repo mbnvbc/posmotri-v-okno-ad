@@ -320,3 +320,11 @@ ol {
 .content__card-link {
   cursor: pointer;
 }
+
+.result__video-container {
+  position: relative;
+}
+
+.content__list-container {
+  position: relative;
+}
